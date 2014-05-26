@@ -1,0 +1,35 @@
+<section id='main'>
+  <form action='/contact' method='post'>
+
+    <div>
+      <label for='user-name'>Name:</label>
+      <input type='text' name='name' id='user-name' size='40'>
+    </div>
+
+    <div>
+      <label for='address'>Address:</label>
+      <input type='text' name='address' id='address' size='40'>
+    </div>
+
+    <div>
+      Department:
+      <input type='radio' value='Sales' id='sales' name='department'>
+      <label for='sales'>Sales</label>
+
+      <input type='radio' value='Technical' id='technical' name='department'>
+      <label for='technical'>Technical</label>
+    
+      <input type='radio' value='Marketing' id='marketing' name='department'>
+      <label for='marketing'>Marketing</label>
+    </div>
+    <br>
+
+    <label for='Message' id='message'>Your Message:</label>
+    <div class='form-item'>
+      <textarea id='message' name='message' rows='10' cols='60'></textarea>
+    </div>
+    <br>
+    <input type='submit' value='Send Message'>
+
+  </form>  
+</section>

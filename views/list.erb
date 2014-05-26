@@ -1,0 +1,50 @@
+<section id='main'>
+<h1>Sales</h1>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Message</th>
+  <tr>
+  <% @sales.each do |c| %>
+  <tr>
+    <td><%= c.name %></td>
+    <td><%= c.address %></td>
+    <td><%= c.message %></td>
+  </tr>
+  <% end %>
+</table>
+
+<h1>Technical</h1>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Message</th>
+  <tr>
+  <% @technical.each do |c| %>
+  <tr>
+    <td><%= c.name %></td>
+    <td><%= c.address %></td>
+    <td><%= c.message %></td>
+  </tr>
+  <% end %>
+</table>
+
+<h1>Marketing</h1>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Message</th>
+  <tr>
+  <% @marketing.each do |c| %>
+  <tr>
+    <td><%= c.name %></td>
+    <td><%= c.address %></td>
+    <td><%= c.message %></td>
+  </tr>
+  <% end %>
+</table>
+
+</section>
